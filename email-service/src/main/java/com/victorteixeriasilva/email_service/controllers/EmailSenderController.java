@@ -10,7 +10,10 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.tags.Tag;
 
+@Tag(name = "Email Sander", description = "Gerenciamento de Envio de Emails")
 @RestController
 @RequestMapping("/api/email")
 public class EmailSenderController {
@@ -22,6 +25,11 @@ public class EmailSenderController {
         this.emailSanderService = emailSanderService;
     }
 
+    @Operation(
+            summary =
+                    "Enviando um email",
+            description =
+                    "Retorna uma mensagem informando se o e-mail foi enviado ou não com sucesso!")
     @PostMapping()
     public ResponseEntity<String> sendEmail(@RequestBody EmailRequest request){
         try {
