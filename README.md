@@ -89,16 +89,6 @@ Este repositório apresenta um **serviço REST em Java** que expõe um endpoint 
 
 ---
 
-## Demonstração visual (recomendado)
-
-![Swagger UI — documentação da API](docs/screenshots/swagger-ui.png)
-
-![Exemplo de requisição POST /api/email no Swagger ou Insomnia](docs/screenshots/post-email.png)
-
-<!-- Opcional: GIF mostrando envio bem-sucedido e resposta 200 -->
-![Fluxo de envio de e-mail](docs/demo/envio-email.gif)
-```
-
 ## Como executar / instalar
 
 ### Pré-requisitos
