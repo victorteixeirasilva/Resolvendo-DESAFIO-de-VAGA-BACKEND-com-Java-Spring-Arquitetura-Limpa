@@ -9,6 +9,7 @@
 **Do desafio técnico à entrega profissional: um microsserviço de envio de e-mail que une Spring Boot, boas práticas de arquitetura e integração real com a nuvem.**
 
 ---
+<img width="1536" height="1024" alt="Generatedimage_1774912223624" src="https://github.com/user-attachments/assets/d3d66595-6aa8-4709-877a-f1ffbe46c2ec" />
 
 ## Introdução e visão geral
 
